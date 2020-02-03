@@ -1,5 +1,3 @@
-require 'pry'
-
 def remove_strawberry(contacts)
   contacts.each do |person, contact_details_hash|
     if person == "Freddy Mercury"
@@ -10,6 +8,4 @@ def remove_strawberry(contacts)
       end
     end
   end
-end
-
 end
